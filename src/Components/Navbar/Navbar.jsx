@@ -16,7 +16,7 @@ const navLinks = [
     icon: <Briefcase size={18} />,
     hasDropdown: true,
     subMenu: [
-      { title: "Web Development", icon: <Code2 size={16} />, href: "/web-projects" },
+      { title: "Web Development", icon: <Code2 size={16} />, href: "/web-development" },
       { title: "UI/UX Design", icon: <Palette size={16} />, href: "/uiux" },
       { title: "Graphic Design", icon: <PenTool size={16} />, href: "/graphic-design-projects" },
       { title: "AI Prompts", icon: <Bot size={16} />, href: "/ai-prompt" },
@@ -62,7 +62,7 @@ export default function Navbar() {
           `}
         >
           {/* Logo */}
-          <Link to={"/"} className="pl-4 pr-4 flex items-center gap-2 font-bold text-white cursor-pointer group">
+          <Link to={'/'} className="pl-4 pr-4 flex items-center gap-2 font-bold text-white cursor-pointer group">
             <div className="bg-blue-600 p-1 rounded-lg group-hover:rotate-12 transition-transform">
                <span className="text-white font-mono text-xs">RN</span>
             </div>
@@ -141,12 +141,12 @@ export default function Navbar() {
       </div>
 
       {/* ---------------- MOBILE NAVBAR (Phone Screens) ---------------- */}
-      <div className="md:hidden fixed top-0 left-0 right-0 z-50 px-4 py-4 flex justify-between items-center bg-gradient-to-b from-black/80 to-transparent pointer-events-none">
+      <Link to={'/'} className="md:hidden fixed top-5 left-0 right-0 z-50 px-4 py-4 flex justify-between items-center pointer-events-none">
         {/* Mobile Logo */}
-        <Link to={'/'} className="pointer-events-auto flex items-center gap-2 bg-black/40 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/10">
+        <div className="pointer-events-auto flex items-center gap-2 bg-black/40 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/10">
            <div className="bg-blue-600 p-1 rounded-md"><span className="text-white text-[10px] font-bold">RN</span></div>
            <span className="text-white font-bold text-sm">RAM.DEV</span>
-        </Link>
+        </div>
 
         {/* Hamburger Button */}
         <button
@@ -155,7 +155,7 @@ export default function Navbar() {
         >
           <Menu size={24} />
         </button>
-      </div>
+      </Link>
 
       {/* ---------------- MOBILE DRAWER OVERLAY ---------------- */}
       <AnimatePresence>
