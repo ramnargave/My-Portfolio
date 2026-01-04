@@ -16,7 +16,7 @@ const navLinks = [
     icon: <Briefcase size={18} />,
     hasDropdown: true,
     subMenu: [
-      { title: "Web Development", icon: <Code2 size={16} />, href: "/web-development" },
+      { title: "Coding", icon: <Code2 size={16} />, href: "/coding-projects" },
       { title: "UI/UX Design", icon: <Palette size={16} />, href: "/uiux" },
       { title: "Graphic Design", icon: <PenTool size={16} />, href: "/graphic-design-projects" },
       { title: "AI Prompts", icon: <Bot size={16} />, href: "/ai-prompt" },

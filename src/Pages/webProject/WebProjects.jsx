@@ -10,46 +10,68 @@ const projectsData = [
     tech: ["React", "Tailwind", "Framer Motion"],
     category: "React",
     image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=2080&auto=format&fit=crop",
-    live: "#",
-    code: "#",
+    live: "https://ramnargave-portfolio.netlify.app/",
+    code: "https://github.com/ramnargave/My-Portfolio",
     featured: false,
   },
   {
     id: 2,
-    title: "Food Delivery App",
+    title: "Food Franchise Management",
     desc: "A scalable multi-outlet food ordering platform with real-time tracking.",
-    tech: ["React", "Firebase", "Redux"],
+    tech: ["React", "Firebase", "Redux", "Chart.js"],
     category: "Full Stack",
     image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format&fit=crop",
-    live: "#",
-    code: "#",
+    live: "https://food-franchise-managment.netlify.app/",
+    code: "https://github.com/ramnargave/Franchise-Managment-Firebase",
     featured: true,
   },
   {
     id: 3,
-    title: "Landing Page UI",
+    title: "Netflix Page UI",
     desc: "High-conversion landing page with clean aesthetics and responsiveness.",
-    tech: ["HTML", "CSS", "GSAP"],
+    tech: ["React", "Tailwind",],
     category: "UI Projects",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2155&auto=format&fit=crop",
+    image: "https://vitrina.ai/wp-content/uploads/2024/12/netflix.webp",
     live: "#",
-    code: "#",
+    code: "https://github.com/ramnargave/Netflix-Clone",
     featured: true,
   },
   {
     id: 4,
-    title: "E-Commerce Dashboard",
+    title: "Electronic Franchise platform",
     desc: "Admin dashboard for managing products, orders, and analytics.",
-    tech: ["React", "Chart.js", "Node.js"],
+    tech: ["React", "Chart.js", "Firebase"],
     category: "Full Stack",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    live: "https://mini-mobile-eccomerce.netlify.app/",
+    code: "https://github.com/ramnargave/Mini-Mobile-Complete-E-Com",
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "Mobile E-Commerce",
+    desc: "Admin dashboard for managing products, orders, and analytics.",
+    tech: ["React", "Chart.js", "Firebase"],
+    category: "Full Stack",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCou9VuyIKrb6NcZnVWY4aVHgOZzHtBl74GQ&s",
+    live: "https://mobile-eccomerce.netlify.app/",
+    code: "https://github.com/ramnargave/Complete-E-Commerce-Firebase",
+    featured: false,
+  },
+    {
+    id: 5,
+    title: "Virtual Assistant",
+    desc: "Virtual Asistant",
+    tech: ["Python", "Speech Recognition", "APIs"],
+    category: "Python",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LVZPNiw5GpxUZR9AYupIWga6N1KjWPsEsg&s",
     live: "#",
-    code: "#",
+    code: "https://github.com/ramnargave/virtual-assistant",
     featured: false,
   },
 ];
 
-const filters = ["All", "HTML / CSS", "JavaScript", "React", "Full Stack", "UI Projects"];
+const filters = ["All", "Python", "JavaScript", "React", "Full Stack", "UI Projects"];
 
 // Icons (Inline SVG to avoid external dependencies)
 const GithubIcon = () => (
@@ -86,7 +108,7 @@ export default function Projects() {
             My Project
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Showcasing my web development work & experience          </p>
+            Showcasing my Coding work & experience          </p>
         </motion.div>
 
         {/* ---------------- FILTERS ---------------- */}

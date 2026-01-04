@@ -76,7 +76,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/admin-msg" element={<ContactMSGUI />} />
-          <Route path="/web-development" element={<WebProjects />} />
+          <Route path="/coding-projects" element={<WebProjects />} />
           <Route path="/uiux" element={<UiUxPortfolio/>} />
           <Route path="/graphic-design-projects" element={<GraphicDesign />} />
           <Route path="/ai-prompt" element={<AIPromptPage />} />

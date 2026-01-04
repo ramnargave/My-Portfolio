@@ -15,8 +15,8 @@ import { href, Link, useLocation } from "react-router-dom";
 const industries = [
   {
     id: 1,
-    title: "Web Development",
-    href: "/web-development",
+    title: "Coding Projects",
+    href: "/coding-projects",
     desc: "Building scalable, SEO-friendly web apps using MERN Stack. I focus on speed, performance, and clean code architecture.",
     tags: ["React.js", "Next.js", "Tailwind CSS", "Node.js"],
     bg: "bg-blue-950",
