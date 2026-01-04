@@ -10,6 +10,8 @@ import ThemeSelector from "./UI/ThemeSelector/ThemeSelector.jsx";
 import WebProjects from "./Pages/webProject/WebProjects.jsx";
 import GraphicDesign from "./Pages/graphicProject/GraphicProjects.jsx";
 import AIPromptPage from "./Pages/aiPromptPage/AiPromptPage.jsx";
+import UiUxPortfolio from "./Pages/UI-UX-Design/UI-UX_Design.jsx";
+import NotFound from "./Pages/404NoFound/404NoFound.jsx";
 
 
 
@@ -73,10 +75,12 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/msg" element={<ContactMSGUI />} />
+          <Route path="/admin-msg" element={<ContactMSGUI />} />
           <Route path="/web-development" element={<WebProjects />} />
+          <Route path="/uiux" element={<UiUxPortfolio/>} />
           <Route path="/graphic-design-projects" element={<GraphicDesign />} />
           <Route path="/ai-prompt" element={<AIPromptPage />} />
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </div>
     </Router>

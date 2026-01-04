@@ -16,7 +16,7 @@ const industries = [
   {
     id: 1,
     title: "Web Development",
-    href: "/web-projects",
+    href: "/web-development",
     desc: "Building scalable, SEO-friendly web apps using MERN Stack. I focus on speed, performance, and clean code architecture.",
     tags: ["React.js", "Next.js", "Tailwind CSS", "Node.js"],
     bg: "bg-blue-950",
@@ -27,7 +27,7 @@ const industries = [
   {
     id: 2,
     title: "UI/UX Design",
-    href: "/ui-ux-projects",
+    href: "/uiux",
     desc: "Designing user-centric interfaces. From wireframing to high-fidelity prototypes, ensuring the best user experience.",
     tags: ["Figma", "Prototyping", "User Research", "Wireframing"],
     bg: "bg-purple-950",
@@ -183,7 +183,7 @@ export default function IndustryScroll() {
           const targetScale = 1 - (industries.length - i) * 0.05;
           return (
             <Card
-            
+              
               key={i}
               index={i}
               item={item}

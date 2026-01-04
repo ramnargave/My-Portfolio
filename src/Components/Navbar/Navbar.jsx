@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 // ---------------- DATA CONFIG ----------------
 const navLinks = [
-  { name: "Home", href: "#home", icon: <Home size={18} /> },
-  { name: "About", href: "#about", icon: <User size={18} /> },
+  { name: "Home", href: "/", icon: <Home size={18} /> },
+  { name: "About", href: "/#about", icon: <User size={18} /> },
   { 
     name: "Projects", 
     href: "#projects", 
@@ -23,7 +23,7 @@ const navLinks = [
     ]
   },
   { name: "Skills", href: "#skills", icon: <Sparkles size={18} /> },
-  { name: "Contact", href: "#contact", icon: <Mail size={18} /> },
+  { name: "Contact", href: "/#contact", icon: <Mail size={18} /> },
 ];
 
 export default function Navbar() {
@@ -133,9 +133,9 @@ export default function Navbar() {
           </div>
 
           <div className="pl-2">
-            <button className="px-5 py-2 bg-white text-black rounded-full text-sm font-bold hover:bg-gray-200 transition active:scale-95">
+            <Link to={'/#contact'} className="px-5 py-2 bg-white text-black rounded-full text-sm font-bold hover:bg-gray-200 transition active:scale-95">
               Hire Me
-            </button>
+            </Link>
           </div>
         </motion.nav>
       </div>

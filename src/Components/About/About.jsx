@@ -17,7 +17,7 @@ function About() {
   ]
 
   return (
-    <div className="mt-5 pt-5 px-5 lg:px-12">
+    <div id='about' className="mt-5 pt-5 px-5 lg:px-12">
 
       {/* Header */}
       <div className="flex gap-2 items-center">

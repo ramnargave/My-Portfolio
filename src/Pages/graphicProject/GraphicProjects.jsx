@@ -83,7 +83,7 @@ export default function GraphicDesign() {
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* ---------------- HEADER ---------------- */}
-        <div className="text-center mb-16 space-y-4">
+        <div className="text-center mb-16 space-y-4 font-serif uppercase">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-purple-300">
             <Palette size={16} /> Visual Portfolio
           </div>

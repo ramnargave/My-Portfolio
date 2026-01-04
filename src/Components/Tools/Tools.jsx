@@ -53,7 +53,7 @@ export default function TechStack() {
   const [activeTab, setActiveTab] = useState("dev");
 
   return (
-    <section className="relative py-5 px-6  overflow-hidden">
+    <section id="skills" className="relative py-5 px-6  overflow-hidden">
       
       {/* Background Decor */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] rounded-full blur-3xl pointer-events-none" />

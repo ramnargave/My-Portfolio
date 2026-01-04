@@ -103,7 +103,7 @@ export default function AiPortfolio() {
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* ---------------- HERO HEADER ---------------- */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 mt-5 md:mt-0">
           <motion.div 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -112,12 +112,12 @@ export default function AiPortfolio() {
             <Terminal size={14} /> AI_PROMPT_ENGINEER_MODE_ON
           </motion.div>
           
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
+          <h1 className="text-2xl md:text-5xl font-bold tracking-tight mb-4 font-serif uppercase">
             Turning <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">Words</span> into <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Reality</span>
           </h1>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          {/* <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             Mastering the language of AI. A showcase of advanced prompt engineering for Midjourney, DALL-E, and LLMs.
-          </p>
+          </p> */}
         </div>
 
         {/* ---------------- FILTERS ---------------- */}
