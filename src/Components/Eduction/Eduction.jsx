@@ -8,12 +8,12 @@ import { motion } from 'framer-motion';
       degree: 'B.Tech in Computer Science',
       institution: 'MITS College',
       year: '2025',
-      cgpa: '6.1',
+      cgpa: '7.1',
     },
     {
       degree: 'Diploma in Computer Science',
-      institution: 'Govt Polytechnic College Jhabua',
-      year: '2018',
+      institution: 'Rgpv Bhopal',
+      year: '2021',
       cgpa: '7.1',
     },
   ];

@@ -42,7 +42,7 @@ function About() {
         {/* Text Section */}
         <div className="w-full md:w-[60%] flex flex-col justify-center text-center md:text-left">
           <p className="text-gray-700 leading-relaxed font-mono">
-            I’m Ramchandra Nargave from Barwani. I have completed my B.Tech in
+            I’m Ram Nargave from Barwani. I have completed my B.Tech in
             Computer Science, and I enjoy exploring new ideas and improving
             myself. I believe in hard work, discipline, and learning every day.
           </p>
