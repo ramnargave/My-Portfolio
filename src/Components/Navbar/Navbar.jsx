@@ -20,6 +20,7 @@ const navLinks = [
       { title: "UI/UX Design", icon: <Palette size={16} />, href: "/uiux" },
       { title: "Graphic Design", icon: <PenTool size={16} />, href: "/graphic-design-projects" },
       { title: "AI Prompts", icon: <Bot size={16} />, href: "/ai-prompt" },
+      { title: "Game", icon: <Bot size={16} />, href: "/Game" },
     ]
   },
   { name: "Skills", href: "#skills", icon: <Sparkles size={18} /> },
